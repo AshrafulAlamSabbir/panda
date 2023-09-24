@@ -1,0 +1,157 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    .c-img .w-100 {
+        width: 100% !important;
+        height: 235px !important;
+    }
+
+    .footer-media {
+        padding-top: 10px;
+        margin-left: 224px !important;
+    }
+
+    .footer-media ul li {
+        list-style: none;
+        display: inline-block;
+
+    }
+
+    .footer-media ul li a i {
+        color: #cccccc;
+        font-size: 22px;
+        margin-bottom: 20px;
+        margin-right: 20px !important;
+    }
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .banner h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        color: black !important;
+        margin-top: 0px;
+        display: none;
+    }
+
+    .banner {
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .banner::after {
+        content: '';
+
+        top: 0;
+        left: 0;
+        width: 100%;
+
+
+        border-radius: 10px;
+    }
+
+    .banner p {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        display: none;
+    }
+
+    .get {
+
+        color: black;
+        border: 1px solid #10C98F;
+
+        font-size: 14px;
+        background: #10C98F;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 5px;
+        margin-left: 102px;
+        margin-top: 40px;
+        display: none;
+    }
+
+    .px-3 {
+
+        margin-top: 212px;
+
+        border: none;
+        border: none;
+        border-radius: none;
+        margin-left: -450px;
+    }
+
+    .w-100 {
+        width: 1000px !important;
+        height: 208px;
+
+    }
+
+
+}
